@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPages", "RazorPages.csproj", "{3E480A7A-F4C6-4B4B-9620-DA8FFCD950A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC", "MVC\MVC.csproj", "{33751AFC-186F-4D16-882C-B37B8904ED4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E480A7A-F4C6-4B4B-9620-DA8FFCD950A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E480A7A-F4C6-4B4B-9620-DA8FFCD950A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E480A7A-F4C6-4B4B-9620-DA8FFCD950A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E480A7A-F4C6-4B4B-9620-DA8FFCD950A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33751AFC-186F-4D16-882C-B37B8904ED4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33751AFC-186F-4D16-882C-B37B8904ED4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33751AFC-186F-4D16-882C-B37B8904ED4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33751AFC-186F-4D16-882C-B37B8904ED4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
