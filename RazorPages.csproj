@@ -4,4 +4,16 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="MVC\obj\Debug\netcoreapp3.1\MVC.Views.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="MVC\bin\Debug\netcoreapp3.1\MVC.runtimeconfig.dev.json" />
+    <Content Remove="BlazorServer\Properties\launchSettings.json" />
+    <Content Remove="BlazorServer\_Imports.razor" />
+    <Content Remove="BlazorServer\Pages\Counter.razor" />
+    <Content Remove="BlazorServer\Pages\Index.razor" />
+    <Content Remove="BlazorServer\Pages\Error.razor" />
+    <Content Remove="BlazorServer\Shared\MainLayout.razor" />
+  </ItemGroup>
 </Project>
